@@ -6,7 +6,7 @@ const ejsMate = require('ejs-mate');
 const methodOverride = require('method-override');
 
 const catchAsync = require('./utils/catchAsync');
-const AppError = require('./utils/AppError');
+const AppError = require('./utils/appError');
 
 mongoose.connect('mongodb://127.0.0.1:27017/db-name', {
   useNewUrlParser: true,
