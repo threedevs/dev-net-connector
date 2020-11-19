@@ -28,16 +28,16 @@ app.set('views', path.join(__dirname, 'views'));
 app.use(express.urlencoded({ extended: true }));
 app.use(methodOverride('_method'));
 
-app.use((err, req, res, next) => {
-  const { statusCode = 500 } = err;
-  if (!err.message) err.message = 'Oh noo Something went worng';
-  res.status(statusCode).render('error', { err });
-});
-
 // add routes here
 
 app.all('*', (req, res, next) => {
   next(new AppError('Page Not Found', 404));
+});
+
+app.use((err, req, res, next) => {
+  const { statusCode = 500 } = err;
+  if (!err.message) err.message = 'Oh noo Something went worng';
+  res.status(statusCode).render('error', { err });
 });
 
 app.listen(3000, () =>
