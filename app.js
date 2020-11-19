@@ -28,6 +28,8 @@ app.set('views', path.join(__dirname, 'views'));
 app.use(express.urlencoded({ extended: true }));
 app.use(methodOverride('_method'));
 
+// add routes here
+
 app.all('*', (req, res, next) => {
   next(new AppError('Page Not Found', 404));
 });
