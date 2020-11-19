@@ -33,6 +33,6 @@ npm i
 ### 4. run the database and the server for development
 now you should be able to run the node server with nodemon which keeps track of changes and restarts the server if needed
 ```
-npm run backend
+npm run dev
 ```
 ### 5. done!
