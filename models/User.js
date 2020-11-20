@@ -14,3 +14,5 @@ const userSchema = new mongoose.Schema({
   twitterHandle: { type: String },
   githubHandle: { type: String },
 });
+
+module.exports = new mongoose.model('User', userSchema);
