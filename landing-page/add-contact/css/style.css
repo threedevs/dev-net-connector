@@ -66,6 +66,7 @@ h1 {
 }
 .login-form input {
   margin-bottom: 1rem;
+  width: 75%;
 }
 .submit button {
   margin-bottom: 1rem;
@@ -100,6 +101,6 @@ footer a {
   }
   .login-form input {
     margin-bottom: 1rem;
-    width: 80%;
+    width: 85%;
   }
 }
