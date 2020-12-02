@@ -138,6 +138,10 @@ footer a {
   text-decoration: none;
   color: rgb(113,184,248);
 }
+a:hover {
+  color: white;
+  transition: .5s;
+}
 
 /******************************************
 /* ADDITIONAL STYLES
