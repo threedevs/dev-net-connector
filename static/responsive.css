@@ -1,0 +1,23 @@
+@media only screen and (max-width:700px){
+    .container{
+        top: 9%;
+        left: 39%;
+    }
+    @media only screen and (max-width:500px)
+    {
+        .container{
+            top: 9%;
+            left: 3%;
+            
+        }
+        .small_container{
+            background-color: #edd70c29;
+            border: 2px solid #ffca28a8;
+            margin:37px 0px;
+        }
+        .btn{
+            background-color: #edd70c29;
+        }
+    }
+    
+}
