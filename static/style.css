@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+}
+body {
+    background:url('/static/bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    
+}
+  
+.container{
+    color:white;
+    position:absolute;
+    top:22%;
+    left:56%;
+    width: 29%;
+    width: -moz-fit-content;
+    width: fit-content;
+}
+.container h1{
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom:10px;
+    display:inline-block;
+    color:#f5ba08ec;
+}
+.small_container{
+    width:100%;
+    border-bottom:2px solid #ffca28a8;
+    margin: 56px 0px;
+}
+.small_container input{
+    background:none;
+    border:none;
+    width:80%;
+    outline:none;
+    padding:5px 0px;
+    padding: 3px 3px;
+    color:white;
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+.small_container i{
+    width:25px;
+    text-align:center;
+}
+.btn{
+    cursor:pointer;
+    outline:none;
+    margin:9px 0px;
+    border: 2px solid #ffca28a8;
+    border-radius: 5px;
+    font-size: 16px;
+    background: none;
+    color: white;
+    padding: 8px 11px;
+    font-weight:bold;
+    font-family: 'Ubuntu', sans-serif;
+    color:#f5ba08ec;
+
+}
+.btn:hover{
+    color:#ffca28a8;
+    background-color: white;
+    opacity:0.6;
+    color:black;
+}
