@@ -1,68 +1,52 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
-*{
-    margin:0px;
-    padding:0px;
+/*
+Al cuerpo de la
+pagina se aplica el tamaño de fuente
+ */
+ body{
+	font-size: 12px;
 }
-body {
-    background:url('/static/bg.jpg') no-repeat center center fixed;
-    background-size: cover;
-    
+/**
+ * se aplica el ancho, margen centrado
+ * borde de un pixel con redondeado, y rellenado
+ * a la izquierda y derecha
+ */
+#Contenedor{
+	width: 400px;
+	margin: 50px auto;
+	background-color: #F3EDED;
+        border: 1px solid #ECE8E8;
+	height: 400px;
+	border-radius:8px;
+	padding: 0px 9px 0px 9px;
 }
-  
-.container{
-    color:white;
-    position:absolute;
-    top:22%;
-    left:56%;
-    width: 29%;
-    width: -moz-fit-content;
-    width: fit-content;
-}
-.container h1{
-    font-family: 'Ubuntu', sans-serif;
-    margin-bottom:10px;
-    display:inline-block;
-    color:#f5ba08ec;
-}
-.small_container{
-    width:100%;
-    border-bottom:2px solid #ffca28a8;
-    margin: 56px 0px;
-}
-.small_container input{
-    background:none;
-    border:none;
-    width:80%;
-    outline:none;
-    padding:5px 0px;
-    padding: 3px 3px;
-    color:white;
-    font-size: 18px;
-    font-family: 'Ubuntu', sans-serif;
 
+/**
+ * Aplicando al icono de usuario el color de fondo,
+ * rellenado de 20px y un redondeado de 120px en forma
+ * de un circulo
+ */
+.Icon span{
+      background: #A8A6A6;
+      padding: 20px;
+      border-radius: 120px;
 }
-.small_container i{
-    width:25px;
-    text-align:center;
+/**
+ * Se aplica al contenedor madre un margen de tamaño 10px hacia la cabecera y pie,
+ * color de fuente blanco,un tamaño de fuente 50px y texto centrado.
+ */
+.Icon{
+     margin-top: 10px;
+     margin-bottom:10px; 
+     color: #FFF;
+     font-size: 50px;
+     text-align: center;
 }
-.btn{
-    cursor:pointer;
-    outline:none;
-    margin:9px 0px;
-    border: 2px solid #ffca28a8;
-    border-radius: 5px;
-    font-size: 16px;
-    background: none;
-    color: white;
-    padding: 8px 11px;
-    font-weight:bold;
-    font-family: 'Ubuntu', sans-serif;
-    color:#f5ba08ec;
-
-}
-.btn:hover{
-    color:#ffca28a8;
-    background-color: white;
-    opacity:0.6;
-    color:black;
+/**
+ * Se aplica al contenedor donde muestra en el pie
+ * la opción de olvidaste tu contraseña?
+ */
+.opcioncontra{
+	text-align: center;
+	margin-top: 20px;
+	font-size: 14px;
 }
